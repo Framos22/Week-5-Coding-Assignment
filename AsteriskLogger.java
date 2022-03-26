@@ -12,9 +12,9 @@ public class AsteriskLogger implements Logger {
 	@Override
 	public void error(String error) {
 		// TODO Auto-generated method stub
-		System.err.println("****************" + "\n");
-		System.err.println("***" + "ERROR: " + error + "***\n");
-		System.err.println("**************** " + "\n");
+		System.out.println("****************" + "\n");
+		System.out.println("***" + "ERROR: " + error + "***\n");
+		System.out.println("**************** " + "\n");
 		
 		
 	}

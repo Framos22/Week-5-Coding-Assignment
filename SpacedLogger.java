@@ -15,9 +15,9 @@ public class SpacedLogger implements Logger {
 	@Override
 	public void error(String error) {
 		// TODO Auto-generated method stub
-		System.err.print("ERROR: "); 
+		System.out.print("ERROR: "); 
 		for(int i = 0; i < error.length(); i++) {
-			System.err.print(error.charAt(i) + " ");
+			System.out.print(error.charAt(i) + " ");
 		}
 	
 
